@@ -34,13 +34,10 @@ const retos = {
         "Habla como un personaje de caricatura por 1 minuto.",
         "Baila como un robot por 30 segundos.",
         "Cuenta un chiste y haz reír a tu pareja.",
-        "Imita a tu pareja durante 1 minuto.",
-        "Haz la peor imitación de un cantante famoso.",
-        "Camina como un pingüino hasta la cocina y regresa.",
+        "Imita a tu pareja durante 1 minuto.",,
         "Dibuja a tu pareja con los ojos cerrados y muéstrale el resultado.",
         "Canta una canción reemplazando todas las vocales con 'A'.",
-        "Ponte algo al revés y quédate así por 3 minutos.",
-        "Explica cómo cepillarse los dientes como si fueras un alienígena."
+        "Ponte algo al revés y quédate así por 3 minutos."
     ]
 };
 
