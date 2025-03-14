@@ -34,7 +34,7 @@ const retos = {
         "Habla como un personaje de caricatura por 1 minuto.",
         "Baila como un robot por 30 segundos.",
         "Cuenta un chiste y haz reír a tu pareja.",
-        "Imita a tu pareja durante 1 minuto.",,
+        "Imita a tu pareja durante 1 minuto.",
         "Dibuja a tu pareja con los ojos cerrados y muéstrale el resultado.",
         "Canta una canción reemplazando todas las vocales con 'A'.",
         "Ponte algo al revés y quédate así por 3 minutos."
