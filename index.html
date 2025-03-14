@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Retos en Pareja 💕</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎲 Juego de Retos en Pareja 💕</h1>
+
+        <div class="botones-superiores">
+            <button id="btnEditar">➕ Editar Participantes</button>
+            <button id="btnPuntajes">📊 Ver Puntajes</button>
+        </div>
+
+        <div id="participantes-container">
+            <h2>👥 Participantes</h2>
+            <ul id="listaParticipantes"></ul>
+            <input type="text" id="inputNombre" placeholder="Nombre del participante">
+            <button id="btnAgregar">➕ Agregar</button>
+        </div>
+
+        <button id="btnIniciar" disabled>🎮 Iniciar Juego</button>
+
+        <div id="juego-container" style="display: none;">
+            <h2 id="turno"></h2>
+
+            <div class="reto-container">
+                <h3>🔹 Reto Actual</h3>
+                <p id="reto" class="reto-texto">Presiona el botón para recibir un reto</p>
+            </div>
+
+            <div class="opciones">
+                <label for="categorias">📌 Categoría:</label>
+                <select id="categorias">
+                    <option value="romantico">💖 Romántico uwu</option>
+                    <option value="atrevido">🔥 Atrevido :3</option>
+                    <option value="divertido">🤣 Divertido :v</option>
+                </select>
+            </div>
+
+            <div class="botones-juego">
+                <button id="btnReto">🎲 Nuevo Reto</button>
+                <button id="btnRechazar">🚫 Rechazar Reto (-2 punto)</button>
+            </div>
+            
+
+            <p id="temporizador" style="display: none;">⏳ Tiempo restante: <span id="tiempo">10</span> segundos</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

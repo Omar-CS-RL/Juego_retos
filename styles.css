@@ -1,0 +1,176 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #ffe4e1;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    margin-top: 50px;
+    padding: 25px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    width: 90%;
+    max-width: 550px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+/* Títulos */
+h1 {
+    font-size: 26px;
+    color: #ff1493;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+h2, h3 {
+    color: #d10078;
+    font-weight: bold;
+}
+
+/* Botones superiores */
+.botones-superiores {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+/* Botones generales */
+button {
+    padding: 12px 18px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ff69b4;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 2px 2px 10px rgba(255, 20, 147, 0.3);
+}
+
+button:hover {
+    background-color: #ff1493;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Lista de participantes */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: #fff0f5;
+    box-shadow: 2px 2px 8px rgba(255, 20, 147, 0.15);
+    transition: transform 0.2s;
+}
+
+li:hover {
+    transform: scale(1.03);
+}
+
+/* Input para nombres */
+input {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    width: 85%;
+    margin-top: 10px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #ff1493;
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 20, 147, 0.5);
+}
+
+/* Contenedor del reto */
+.reto-container {
+    background: #ffebf0;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 420px;
+    box-shadow: 0 5px 10px rgba(255, 20, 147, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.reto-container:hover {
+    transform: scale(1.02);
+}
+
+/* Texto del reto */
+.reto-texto {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d10078;
+    margin-top: 10px;
+}
+
+/* Botones del juego */
+.botones-juego {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+/* Temporizador */
+#temporizador {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    button {
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+
+    li {
+        font-size: 16px;
+        padding: 6px 10px;
+    }
+
+    input {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
