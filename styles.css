@@ -2,7 +2,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    background-color: #ffe4e1;
+    background-color: #e6d6f5; /* Lila claro */
     margin: 0;
     padding: 0;
 }
@@ -27,13 +27,13 @@ body {
 /* Títulos */
 h1 {
     font-size: 26px;
-    color: #ff1493;
+    color: #8a2be2; /* Lila fuerte */
     margin-bottom: 15px;
     text-transform: uppercase;
 }
 
 h2, h3 {
-    color: #d10078;
+    color: #6a1b9a; /* Lila oscuro */
     font-weight: bold;
 }
 
@@ -51,18 +51,18 @@ button {
     padding: 12px 18px;
     font-size: 16px;
     font-weight: bold;
-    background-color: #ff69b4;
+    background-color: #b39ddb; /* Lila suave */
     border: none;
     color: white;
     cursor: pointer;
     margin: 10px;
     border-radius: 8px;
     transition: background 0.3s, transform 0.2s;
-    box-shadow: 2px 2px 10px rgba(255, 20, 147, 0.3);
+    box-shadow: 2px 2px 10px rgba(138, 43, 226, 0.3);
 }
 
 button:hover {
-    background-color: #ff1493;
+    background-color: #9575cd; /* Lila medio */
     transform: scale(1.05);
 }
 
@@ -86,8 +86,8 @@ li {
     align-items: center;
     padding: 8px 12px;
     border-radius: 8px;
-    background: #fff0f5;
-    box-shadow: 2px 2px 8px rgba(255, 20, 147, 0.15);
+    background: #e1bee7; /* Lila pastel */
+    box-shadow: 2px 2px 8px rgba(138, 43, 226, 0.15);
     transition: transform 0.2s;
 }
 
@@ -100,27 +100,27 @@ input {
     padding: 12px;
     font-size: 16px;
     border-radius: 6px;
-    border: 1px solid #ddd;
+    border: 1px solid #d1c4e9; /* Lila claro */
     width: 85%;
     margin-top: 10px;
     transition: border-color 0.3s;
 }
 
 input:focus {
-    border-color: #ff1493;
+    border-color: #8a2be2; /* Lila fuerte */
     outline: none;
-    box-shadow: 0 0 5px rgba(255, 20, 147, 0.5);
+    box-shadow: 0 0 5px rgba(138, 43, 226, 0.5);
 }
 
 /* Contenedor del reto */
 .reto-container {
-    background: #ffebf0;
+    background: #d1c4e9; /* Lila pastel */
     border-radius: 12px;
     padding: 20px;
     margin: 20px auto;
     width: 90%;
     max-width: 420px;
-    box-shadow: 0 5px 10px rgba(255, 20, 147, 0.2);
+    box-shadow: 0 5px 10px rgba(138, 43, 226, 0.2);
     transition: transform 0.3s ease-in-out;
 }
 
@@ -132,7 +132,7 @@ input:focus {
 .reto-texto {
     font-size: 20px;
     font-weight: bold;
-    color: #d10078;
+    color: #6a1b9a; /* Lila oscuro */
     margin-top: 10px;
 }
 
@@ -148,7 +148,7 @@ input:focus {
 #temporizador {
     font-size: 18px;
     font-weight: bold;
-    color: red;
+    color: #4a148c; /* Lila profundo */
     margin-top: 10px;
 }
 
